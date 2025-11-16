@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   Code,
   Briefcase,
@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 
 export default function Portfolio() {
-  const [activeSection, setActiveSection] = useState<any>("hero");
+  // const [activeSection, setActiveSection] = useState<any>("hero");
   const [hoveredSkill, setHoveredSkill] = useState<any>(null);
   const [hoveredExperience, setHoveredExperience] = useState<any>(null);
   const [isVisible, setIsVisible] = useState<any>(false);
