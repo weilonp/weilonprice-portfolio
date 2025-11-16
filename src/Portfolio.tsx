@@ -346,10 +346,10 @@ export default function Portfolio() {
               <Linkedin className="w-5 h-5" />
               LinkedIn
             </a>
-            <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:from-cyan-600 hover:to-blue-600 transition-all transform hover:scale-105 shadow-lg">
+            <a className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:from-cyan-600 hover:to-blue-600 transition-all transform hover:scale-105 shadow-lg"  href="/Weilon_Price_Resume.pdf" target="_blank" rel="noopener noreferrer">
               <Download className="w-5 h-5" />
               Resume
-            </button>
+            </a>
           </div>
 
           {/* Education Card - Enhanced */}
